@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 7
+date: 2014-07-15
+img: submarine.png
+alt: image-alt
+project-date: April 2017
+client: personal
+category: Hardware
+description: Testing if addition of new projects is working and easy to do.
+
+---

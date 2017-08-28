@@ -2,6 +2,7 @@
 title: Rajith's portfolio
 email: radrajith@gmail.com
 url: https://radrajith.github.io
+description: "My personal site to document and showcase my projects and also my credentials."
 keywords: "Resume, Portfolio, Hire, job, Rajith, Raj, Radhakrishnan, Rajith Radhakrishnan, Engineer, Design Verification engineer, Hardware engineer, Software engineer, Coder, VLSI"
 skills: "Electrical Engineer - Hardware and software enthusiast - Graduate Student"
 meta_author: Radhakrishnan Rajith
@@ -34,10 +35,11 @@ footer:
   copyright: Dr. Henry Jekyll
   location: Location
   social: Around the Web
-  credits: Credits
+  credits: Theme Credit
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: linkedin
     url: https://www.linkedin.com/in/rajith-radhakrishnan-265b5119/
   - title: github
     url: http://github.com/radrajith
@@ -47,6 +49,7 @@ address:
   - line: New Hyde Park, NY 11040
 
 # Credits content
+credits: 'open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
