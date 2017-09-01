@@ -9,6 +9,14 @@
                 </div>
                 <div class="row">
                   <ul class="list-inline item-details">
+                     <!-- education -->
+                     <span style = "float:left;"><h3><u>Education</u><br/></h3></span>
+                     <br/><br/><br/>
+                     {% for exp in site.categories.education %}
+                      <p>{{ exp.description }}</P>
+                       {% endfor %}
+                     <hr class="star-light">
+                     <!-- experiences -->
                     <span style = "float:left;"><h3><u>Experience</u><br/></h3></span>
                     <br/><br/><br/>
                     {% for exp in site.categories.experiences %}
@@ -21,6 +29,7 @@
                       <p>{{ exp.description }}</P>
                       <hr class="style17">
                       {% endfor %}
+                      <hr class="star-light">
                     </ul>
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                       <a href="https://app.box.com/s/ho2xuo9jv52bl80nmi265htcv05oq1it" target="_blank" class="btn btn-lg btn-outline">
