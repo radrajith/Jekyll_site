@@ -15,6 +15,6 @@ description: |
     <span style="float:right;">         May 2017</span>
   </p>
   <p style="text-align:left;">Minor: Physics
-    <span style="float:right;"> Dean's List:            Fall 2013 - May 2017</span>
+    <span style="float:right;"> <b>Dean's List:</b>            Fall 2013 - May 2017</span>
   </p>
 ---
