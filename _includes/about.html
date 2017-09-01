@@ -3,33 +3,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Resume</h2>
+                    <h2>About Me</h2>
                     <hr class="star-light">
+                  </div>
                 </div>
-            </div>
-            <div class="row">
-              <ul class="list-inline item-details">
-              {% for exp in site.categories.experiences %}
-              <p style="text-align:left;">{{ exp.company-name }}
-                <span style="float:right;">{{ exp.location }}</span>
-              </p>
-              <p style="text-align:left;">{{ exp.position-title }}
-                <span style="float:right;">{{ exp.timeline }}</span>
-              </p>
-              <p>{{ exp.line-0 }}</P>
-              <script>var num = parseInt({{ exp.number-of-lines }});
-              for (i = 0; i < num; i++) {
-                str1 = "exp."+"line-"+ parseInt(i);
-                document.write(exp.line-0);
-              }
-              </script>
-                {% endfor %}
-              </ul>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="https://app.box.com/s/ho2xuo9jv52bl80nmi265htcv05oq1it" target="_blank" class="btn btn-lg btn-outline">
+                <div class="row">
+                  <ul class="list-inline item-details">
+                    <span style = "float:left;"><h3><u>Experience</u><br/></h3></span>
+                    <br/><br/><br/>
+                    {% for exp in site.categories.experiences %}
+                      <p style="text-align:left;"><b>{{ exp.company-name }}</b>
+                        <span style="float:right;"><b>{{ exp.location }}</b></span>
+                      </p>
+                      <p style="text-align:left;"><b>{{ exp.position-title }}</b>
+                        <span style="float:right;"><b>{{ exp.timeline }}</b></span>
+                      </p>
+                      <p>{{ exp.description }}</P>
+                      <hr class="style17">
+                      {% endfor %}
+                    </ul>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                      <a href="https://app.box.com/s/ho2xuo9jv52bl80nmi265htcv05oq1it" target="_blank" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download Resume
-                    </a>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-    </section>
+              </section>

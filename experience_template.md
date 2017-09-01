@@ -7,7 +7,13 @@ date: 2016-08-06
 timeline: Summer 2016
 position-title:
 number-of-lines:
-line-1:
+description: |
+  <ul>
+  <li><p> </p></li>
+  <li><p> </p></li>
+  <li><p> </p></li>
+  <li><p> </p></li>
+  </ul>
 number-of-images:
 img1:
 tools-used:
