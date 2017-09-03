@@ -10,15 +10,13 @@
                 <div class="row">
                   <ul class="list-inline item-details">
                      <!-- education -->
-                     <span style = "float:left;"><h3><u>Education</u><br/></h3></span>
-                     <br/><br/><br/>
+                     <h3 class="section-title">Education</h3>
                      {% for exp in site.categories.education %}
                       <p>{{ exp.description }}</P>
                        {% endfor %}
                      <hr class="star-light">
                      <!-- experiences -->
-                    <span style = "float:left;"><h3><u>Experience</u><br/></h3></span>
-                    <br/><br/><br/>
+                    <h3 class="section-title">Experience</h3>
                     {% for exp in site.categories.experiences %}
                       <p style="text-align:left;"><b>{{ exp.company-name }}</b>
                         <span style="float:right;"><b>{{ exp.location }}</b></span>
@@ -27,6 +25,10 @@
                         <span style="float:right;"><b>{{ exp.timeline }}</b></span>
                       </p>
                       <p>{{ exp.description }}</P>
+                        {% if exp.detailed == no %}
+                        <p>hello</p>
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                        {% endif %}
                       <hr class="style17">
                       {% endfor %}
                       <hr class="star-light">
