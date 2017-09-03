@@ -3,7 +3,7 @@ layout: default
 modal-id: 2
 title: Data Structures using Java
 date: 2016-12-20
-img: java.jpg
+img: Java.jpg
 alt: image-alt
 project-date: Dec 2015
 client: personal
