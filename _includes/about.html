@@ -25,9 +25,8 @@
                         <span style="float:right;"><b>{{ exp.timeline }}</b></span>
                       </p>
                       <p>{{ exp.description }}</P>
-                        {% if exp.detailed == no %}
-                        <p>hello</p>
-                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                        {% if exp.detailed %}
+                        <i class="fa fa-search-plus" aria-hidden="true">&nbspMore Info</i>
                         {% endif %}
                       <hr class="style17">
                       {% endfor %}
