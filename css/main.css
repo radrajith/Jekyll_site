@@ -458,3 +458,8 @@ footer .footer-below {
 .section-title{
   text-decoration: underline;
 }
+
+.site-tag a {
+    display: inline-block;
+    margin-right: 12px;
+}
